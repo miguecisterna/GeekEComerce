@@ -3,6 +3,7 @@ import NavLayout from '../layouts/navLayout'
 import Carousel from '../components/carousel'
 import Recent from '../components/Recent'
 import LastSeen from '../components/LastSeen'
+import FooterLayout from '../layouts/FooterLayout'
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
       <div className='flex flex-col gap-4 bg-[#8d05c2] '>
         <Recent />
         <LastSeen />
+      </div>
+
+      <div className='flex flex-col gap-4 bg-[#8d05c2] '>
+        <FooterLayout/>
       </div>
 
     </div>
